@@ -4,6 +4,8 @@ RSpec.describe 'CoinExchange integration specs' do
   let(:client) { Cryptoexchange::Client.new }
 
   it 'fetch pairs' do
+    pending ":error, coin_exchange's service is temporarily unavailable."
+
     pairs = client.pairs('coin_exchange')
     expect(pairs).not_to be_empty
 
@@ -14,6 +16,8 @@ RSpec.describe 'CoinExchange integration specs' do
   end
 
   it 'fetch ticker' do
+    pending ":error, coin_exchange's service is temporarily unavailable."
+
     ltc_btc_pair = Cryptoexchange::Models::MarketPair.new(base: 'LTC', target: 'BTC', market: 'coin_exchange')
     ticker = client.ticker(ltc_btc_pair)
 
