@@ -1,0 +1,36 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.gemini.com/v1/book/BTCUSD
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Sep 2017 17:24:43 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '6197'
+      Connection:
+      - close
+      Server:
+      - nginx
+    body:
+      encoding: ASCII-8BIT
+      string: '{"bids":[{"price":"4299.81","amount":"16.57911602","timestamp":"1506792283"},{"price":"4299.80","amount":"16.36008","timestamp":"1506792283"},{"price":"4298.40","amount":"2.8911","timestamp":"1506792283"},{"price":"4296.54","amount":"0.0057","timestamp":"1506792283"},{"price":"4296.05","amount":"3.19","timestamp":"1506792283"},{"price":"4296.04","amount":"3.2","timestamp":"1506792283"},{"price":"4295.18","amount":"5","timestamp":"1506792283"},{"price":"4293.97","amount":"3","timestamp":"1506792283"},{"price":"4293.84","amount":"0.686","timestamp":"1506792283"},{"price":"4291.97","amount":"9.2681","timestamp":"1506792283"},{"price":"4291.94","amount":"3.0274","timestamp":"1506792283"},{"price":"4289.48","amount":"2.9449","timestamp":"1506792283"},{"price":"4289.10","amount":"5","timestamp":"1506792283"},{"price":"4289.00","amount":"7.5","timestamp":"1506792283"},{"price":"4287.17","amount":"3.2","timestamp":"1506792283"},{"price":"4287.00","amount":"0.05652204","timestamp":"1506792283"},{"price":"4286.67","amount":"7.5","timestamp":"1506792283"},{"price":"4286.59","amount":"0.07","timestamp":"1506792283"},{"price":"4284.67","amount":"3.11","timestamp":"1506792283"},{"price":"4284.55","amount":"7.5","timestamp":"1506792283"},{"price":"4284.00","amount":"1","timestamp":"1506792283"},{"price":"4283.16","amount":"5","timestamp":"1506792283"},{"price":"4282.59","amount":"7.5","timestamp":"1506792283"},{"price":"4282.03","amount":"3.3842","timestamp":"1506792283"},{"price":"4281.00","amount":"0.00467181","timestamp":"1506792283"},{"price":"4280.88","amount":"2","timestamp":"1506792283"},{"price":"4280.00","amount":"1.07544222","timestamp":"1506792283"},{"price":"4279.88","amount":"3.25","timestamp":"1506792283"},{"price":"4277.38","amount":"5","timestamp":"1506792283"},{"price":"4277.25","amount":"2.92","timestamp":"1506792283"},{"price":"4277.00","amount":"0.01169044","timestamp":"1506792283"},{"price":"4276.00","amount":"0.05816651","timestamp":"1506792283"},{"price":"4275.21","amount":"2.8707","timestamp":"1506792283"},{"price":"4275.01","amount":"1.54104902","timestamp":"1506792283"},{"price":"4275.00","amount":"359.87308006","timestamp":"1506792283"},{"price":"4273.21","amount":"0.00018703","timestamp":"1506792283"},{"price":"4272.93","amount":"3.23","timestamp":"1506792283"},{"price":"4272.44","amount":"5","timestamp":"1506792283"},{"price":"4271.89","amount":"10","timestamp":"1506792283"},{"price":"4271.00","amount":"0.00936549","timestamp":"1506792283"},{"price":"4270.99","amount":"3.29","timestamp":"1506792283"},{"price":"4270.10","amount":"0.00468373","timestamp":"1506792283"},{"price":"4268.73","amount":"3.1955","timestamp":"1506792283"},{"price":"4266.93","amount":"5","timestamp":"1506792283"},{"price":"4266.60","amount":"3","timestamp":"1506792283"},{"price":"4266.00","amount":"27","timestamp":"1506792283"},{"price":"4264.38","amount":"2.98","timestamp":"1506792283"},{"price":"4262.08","amount":"3","timestamp":"1506792283"},{"price":"4261.57","amount":"5","timestamp":"1506792283"},{"price":"4260.00","amount":"0.22707746","timestamp":"1506792283"}],"asks":[{"price":"4299.82","amount":"5.46807119","timestamp":"1506792283"},{"price":"4299.99","amount":"5","timestamp":"1506792283"},{"price":"4300.00","amount":"68.4332500646","timestamp":"1506792283"},{"price":"4304.78","amount":"7.5","timestamp":"1506792283"},{"price":"4307.93","amount":"9.2684","timestamp":"1506792283"},{"price":"4308.74","amount":"7.5","timestamp":"1506792283"},{"price":"4308.93","amount":"3","timestamp":"1506792283"},{"price":"4310.95","amount":"3.3867","timestamp":"1506792283"},{"price":"4313.32","amount":"3.34","timestamp":"1506792283"},{"price":"4314.31","amount":"7.5","timestamp":"1506792283"},{"price":"4315.23","amount":"1.81031","timestamp":"1506792283"},{"price":"4316.25","amount":"4","timestamp":"1506792283"},{"price":"4318.73","amount":"3","timestamp":"1506792283"},{"price":"4321.14","amount":"3.1324","timestamp":"1506792283"},{"price":"4322.75","amount":"7.5","timestamp":"1506792283"},{"price":"4323.53","amount":"3","timestamp":"1506792283"},{"price":"4323.98","amount":"10","timestamp":"1506792283"},{"price":"4324.87","amount":"0.05","timestamp":"1506792283"},{"price":"4326.20","amount":"0.01","timestamp":"1506792283"},{"price":"4326.33","amount":"3.23","timestamp":"1506792283"},{"price":"4328.36","amount":"2.8424","timestamp":"1506792283"},{"price":"4330.67","amount":"3","timestamp":"1506792283"},{"price":"4333.05","amount":"3","timestamp":"1506792283"},{"price":"4335.00","amount":"0.015","timestamp":"1506792283"},{"price":"4335.12","amount":"2.8","timestamp":"1506792283"},{"price":"4335.43","amount":"18.1031","timestamp":"1506792283"},{"price":"4336.97","amount":"2.9333","timestamp":"1506792283"},{"price":"4337.83","amount":"5","timestamp":"1506792283"},{"price":"4338.31","amount":"0.121","timestamp":"1506792283"},{"price":"4338.33","amount":"24.71978239","timestamp":"1506792283"},{"price":"4338.91","amount":"2.6704","timestamp":"1506792283"},{"price":"4339.99","amount":"40.18","timestamp":"1506792283"},{"price":"4340.00","amount":"0.3525932","timestamp":"1506792283"},{"price":"4340.71","amount":"4.67","timestamp":"1506792283"},{"price":"4340.96","amount":"0.02128","timestamp":"1506792283"},{"price":"4341.00","amount":"0.0048","timestamp":"1506792283"},{"price":"4341.22","amount":"2.66","timestamp":"1506792283"},{"price":"4343.23","amount":"3","timestamp":"1506792283"},{"price":"4344.00","amount":"0.1","timestamp":"1506792283"},{"price":"4344.37","amount":"5","timestamp":"1506792283"},{"price":"4345.00","amount":"11.63164589","timestamp":"1506792283"},{"price":"4345.44","amount":"2.67","timestamp":"1506792283"},{"price":"4345.84","amount":"32.14","timestamp":"1506792283"},{"price":"4347.49","amount":"2.6695","timestamp":"1506792283"},{"price":"4347.57","amount":"10","timestamp":"1506792283"},{"price":"4348.30","amount":"0.5","timestamp":"1506792283"},{"price":"4348.97","amount":"0.2","timestamp":"1506792283"},{"price":"4349.00","amount":"8.11969481","timestamp":"1506792283"},{"price":"4349.68","amount":"2.8865","timestamp":"1506792283"},{"price":"4349.89","amount":"0.1","timestamp":"1506792283"}]}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:24:43 GMT
+recorded_with: VCR 3.0.3

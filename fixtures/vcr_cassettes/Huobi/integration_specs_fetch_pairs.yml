@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://be.huobi.com/v1/common/symbols
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - be.huobi.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Sep 2017 17:24:46 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Vary:
+      - Accept-Encoding
+      X-Application-Context:
+      - dawn-broker-bitex:prd:8080
+      Set-Cookie:
+      - __jsluid=312120e8decd0bee12e1a57a185e33e0; max-age=31536000; path=/; HttpOnly
+      X-Cache:
+      - bypass
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","data":[{"base-currency":"bcc","quote-currency":"cny","price-precision":2,"amount-precision":4},{"base-currency":"eth","quote-currency":"cny","price-precision":2,"amount-precision":4},{"base-currency":"etc","quote-currency":"cny","price-precision":2,"amount-precision":4}]}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:24:46 GMT
+- request:
+    method: get
+    uri: https://api.huobi.pro/v1/common/symbols
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.huobi.pro
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Sat, 30 Sep 2017 17:24:46 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Application-Context:
+      - dawn-broker-pro:prd:8080
+    body:
+      encoding: UTF-8
+      string: '{"status":"ok","data":[{"base-currency":"eth","quote-currency":"btc","price-precision":6,"amount-precision":4},{"base-currency":"ltc","quote-currency":"btc","price-precision":6,"amount-precision":4},{"base-currency":"etc","quote-currency":"btc","price-precision":6,"amount-precision":4},{"base-currency":"bcc","quote-currency":"btc","price-precision":6,"amount-precision":4}]}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:24:46 GMT
+recorded_with: VCR 3.0.3

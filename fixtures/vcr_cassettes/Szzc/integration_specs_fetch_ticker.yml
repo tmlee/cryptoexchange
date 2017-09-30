@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://szzc.com/api/public/ticker/BTCCNY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - szzc.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '257'
+      Connection:
+      - close
+      Date:
+      - Sat, 30 Sep 2017 17:25:54 GMT
+      Server:
+      - nginx/1.12.1
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Etag:
+      - W/"101-OQ/+m6EPagzApmjdEBHB+ernD5U"
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 815c0e4cdb63badd748acf1788529229.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - aX1ajlPLGvLjlVVgMOJsjfpf4yxCSUxSSzAEauV-TvEXdp8AGmz-oQ==
+    body:
+      encoding: UTF-8
+      string: '{"status":{"success":1,"message":null},"result":{"market":"BTCCNY","date":1506792349960,"sell":2500000000000,"buy":114000000000,"high":0,"high24h":2500000000000,"low":0,"low24h":2500000000000,"last":2500000000000,"last24h":2500000000000,"vol":0,"vol24h":0}}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:25:54 GMT
+recorded_with: VCR 3.0.3

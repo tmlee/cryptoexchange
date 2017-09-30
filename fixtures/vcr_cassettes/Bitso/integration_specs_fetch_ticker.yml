@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api-dev.bitso.com/v3/ticker?book=BTC_MXN
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api-dev.bitso.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Sep 2017 17:24:08 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '220'
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=da64aa4a95c975d96b8c8b75b5bbdb24c1506792248; expires=Sun, 30-Sep-18
+        17:24:08 GMT; path=/; domain=.bitso.com; HttpOnly
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Frame-Options:
+      - sameorigin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Permitted-Cross-Domain-Policies:
+      - master-only
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a68dfc0a9ac2cbd-KUL
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":true,"payload":{"high":"78479.99","last":"77600.06","created_at":"2017-09-30T17:24:08+00:00","book":"btc_mxn","volume":"26.33060331","vwap":"76469.12835344","low":"76100.62","ask":"77999.58","bid":"77507.03"}}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:24:08 GMT
+recorded_with: VCR 3.0.3

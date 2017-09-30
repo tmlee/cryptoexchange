@@ -1,0 +1,131 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://bleutrade.com/api/v2/public/getmarketsummaries
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - bleutrade.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Sep 2017 17:23:17 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d9266a9567e4458f3ab2d9c05e94090481506792191; expires=Sun, 30-Sep-18
+        17:23:11 GMT; path=/; domain=.bleutrade.com; HttpOnly
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a68de5d399c2cff-KUL
+    body:
+      encoding: UTF-8
+      string: '{"success":"true","message":"","result":[{"MarketName":"ADC_BTC","PrevDay":"0.00000038","High":"0.00000039","Low":"0.00000038","Last":"0.00000038","Average":"0.00000038","Volume":"288199.98368421","BaseVolume":"0.10952418","TimeStamp":"2017-09-30
+        17:23:10","Bid":"0.00000037","Ask":"0.00000039","IsActive":"true"},{"MarketName":"ADC_DOGE","PrevDay":"1.83000000","High":"1.83000000","Low":"1.81000000","Last":"1.83000000","Average":"1.82381381","Volume":"999.00000000","BaseVolume":"1821.99000000","TimeStamp":"2017-09-30
+        17:23:10","Bid":"1.40001626","Ask":"1.90000001","IsActive":"true"},{"MarketName":"BCC_BTC","PrevDay":"0.10000762","High":"0.10809995","Low":"0.10000171","Last":"0.10170008","Average":"0.10136230","Volume":"0.52106357","BaseVolume":"0.05281620","TimeStamp":"2017-09-30
+        17:23:10","Bid":"0.10170007","Ask":"0.10170008","IsActive":"true"},{"MarketName":"BCC_DOGE","PrevDay":"390665.00000000","High":"426391.99999999","Low":"390640.00000000","Last":"426391.99999999","Average":"394292.94545628","Volume":"0.02385884","BaseVolume":"9407.37229877","TimeStamp":"2017-09-30
+        17:23:10","Bid":"390640.00000019","Ask":"422674.99999999","IsActive":"true"},{"MarketName":"BITB_BTC","PrevDay":"0.00000076","High":"0.00000078","Low":"0.00000069","Last":"0.00000074","Average":"0.00000074","Volume":"94424.86575629","BaseVolume":"0.07010813","TimeStamp":"2017-09-30
+        17:23:10","Bid":"0.00000070","Ask":"0.00000074","IsActive":"true"},{"MarketName":"BITB_DOGE","PrevDay":"3.69997698","High":"4.89999997","Low":"1.70000050","Last":"4.89999997","Average":"3.67426799","Volume":"5730.49940139","BaseVolume":"21055.39052258","TimeStamp":"2017-09-30
+        17:23:10","Bid":"2.10000708","Ask":"4.89999998","IsActive":"true"},{"MarketName":"BLK_BTC","PrevDay":"0.00004814","High":"0.00005849","Low":"0.00004587","Last":"0.00005470","Average":"0.00005443","Volume":"12294.29351086","BaseVolume":"0.66913744","TimeStamp":"2017-09-30
+        17:23:10","Bid":"0.00005386","Ask":"0.00005758","IsActive":"true"},{"MarketName":"BLK_DOGE","PrevDay":"222.99999965","High":"222.99999965","Low":"158.00000385","Last":"165.00000001","Average":"166.22279848","Volume":"6.27398776","BaseVolume":"1042.87980311","TimeStamp":"2017-09-30
+        17:23:10","Bid":"165.00000002","Ask":"222.99998300","IsActive":"true"},{"MarketName":"BSTY_BTC","PrevDay":"0.00000171","High":"0.00000206","Low":"0.00000171","Last":"0.00000180","Average":"0.00000182","Volume":"3443.59594662","BaseVolume":"0.00626692","TimeStamp":"2017-09-30
+        17:23:10","Bid":"0.00000177","Ask":"0.00000192","IsActive":"true"},{"MarketName":"BSTY_DOGE","PrevDay":"7.50000000","High":"7.50000000","Low":"7.50000000","Last":"7.50000000","Average":"7.50000000","Volume":"2.00000000","BaseVolume":"15.00000000","TimeStamp":"2017-09-30
+        17:23:10","Bid":"5.10000006","Ask":"7.50000000","IsActive":"true"},{"MarketName":"BTA_BTC","PrevDay":"0.00016901","High":"0.00020459","Low":"0.00016739","Last":"0.00019951","Average":"0.00019656","Volume":"45.81671148","BaseVolume":"0.00900593","TimeStamp":"2017-09-30
+        17:23:10","Bid":"0.00017441","Ask":"0.00019837","IsActive":"true"},{"MarketName":"BTA_DOGE","PrevDay":"516.96225114","High":"745.99999994","Low":"516.96225114","Last":"745.99999994","Average":"694.84482822","Volume":"0.49964725","BaseVolume":"347.17730760","TimeStamp":"2017-09-30
+        17:23:10","Bid":"745.99999997","Ask":"745.99999999","IsActive":"true"},{"MarketName":"BTCD_BTC","PrevDay":"0.02299999","High":"0.03753056","Low":"0.02120882","Last":"0.03052641","Average":"0.03154406","Volume":"7.16825949","BaseVolume":"0.22611601","TimeStamp":"2017-09-30
+        17:23:10","Bid":"0.02563571","Ask":"0.03052542","IsActive":"true"},{"MarketName":"BTCD_DOGE","PrevDay":"121000.00000000","High":"150000.00000000","Low":"61000.00000027","Last":"150000.00000000","Average":"121100.02008018","Volume":"0.08466060","BaseVolume":"10252.40036000","TimeStamp":"2017-09-30
+        17:23:10","Bid":"61000.00000178","Ask":"150000.00000000","IsActive":"true"},{"MarketName":"CDN_BTC","PrevDay":"0.00000137","High":"0.00000148","Low":"0.00000132","Last":"0.00000148","Average":"0.00000146","Volume":"118855.22638596","BaseVolume":"0.17305324","TimeStamp":"2017-09-30
+        17:23:10","Bid":"0.00000146","Ask":"0.00000148","IsActive":"true"},{"MarketName":"CDN_DOGE","PrevDay":"5.16198819","High":"5.16198819","Low":"5.16198819","Last":"5.16198819","Average":"5.16198819","Volume":"0.00000000","BaseVolume":"0.00000000","TimeStamp":"2017-09-30
+        17:23:10","Bid":"5.16200078","Ask":"6.90000000","IsActive":"true"},{"MarketName":"CLAM_BTC","PrevDay":"0.00227993","High":"0.00228105","Low":"0.00207712","Last":"0.00207712","Average":"0.00213786","Volume":"0.31552333","BaseVolume":"0.00067454","TimeStamp":"2017-09-30
+        17:23:10","Bid":"0.00207699","Ask":"0.00227686","IsActive":"true"},{"MarketName":"CLAM_DOGE","PrevDay":"7800.00000223","High":"7800.00000223","Low":"7800.00000223","Last":"7800.00000223","Average":"7800.00000223","Volume":"0.00805000","BaseVolume":"62.79000002","TimeStamp":"2017-09-30
+        17:23:10","Bid":"7800.00000223","Ask":"8999.99999999","IsActive":"true"},{"MarketName":"DASH_BTC","PrevDay":"0.07630665","High":"0.08088996","Low":"0.07630665","Last":"0.07632080","Average":"0.07986245","Volume":"2.39249006","BaseVolume":"0.19107013","TimeStamp":"2017-09-30
+        17:23:13","Bid":"0.07632069","Ask":"0.07908643","IsActive":"true"},{"MarketName":"DASH_DOGE","PrevDay":"296753.00000001","High":"321595.99999983","Low":"296753.00000001","Last":"321595.99999983","Average":"316344.21796514","Volume":"0.00116959","BaseVolume":"369.99303389","TimeStamp":"2017-09-30
+        17:23:13","Bid":"291849.00000003","Ask":"316556.99999999","IsActive":"true"},{"MarketName":"DCR_BTC","PrevDay":"0.00770485","High":"0.00871396","Low":"0.00770485","Last":"0.00771635","Average":"0.00818068","Volume":"5.32714713","BaseVolume":"0.04357969","TimeStamp":"2017-09-30
+        17:23:13","Bid":"0.00771653","Ask":"0.00859114","IsActive":"true"},{"MarketName":"DCR_DOGE","PrevDay":"20010.00000004","High":"20010.00000004","Low":"20010.00000004","Last":"20010.00000004","Average":"20010.00000004","Volume":"0.00099990","BaseVolume":"20.00799900","TimeStamp":"2017-09-30
+        17:23:13","Bid":"20010.00000008","Ask":"40999.99999999","IsActive":"true"},{"MarketName":"DGC_BTC","PrevDay":"0.00000080","High":"0.00000082","Low":"0.00000075","Last":"0.00000077","Average":"0.00000080","Volume":"4765.32302384","BaseVolume":"0.00379083","TimeStamp":"2017-09-30
+        17:23:13","Bid":"0.00000078","Ask":"0.00000082","IsActive":"true"},{"MarketName":"DGC_DOGE","PrevDay":"4.17049500","High":"4.17049500","Low":"4.17049306","Last":"4.17049306","Average":"4.17049320","Volume":"85.56046442","BaseVolume":"356.82933520","TimeStamp":"2017-09-30
+        17:23:13","Bid":"2.90850751","Ask":"4.16999986","IsActive":"true"},{"MarketName":"DOGE_BTC","PrevDay":"0.00000026","High":"0.00000027","Low":"0.00000025","Last":"0.00000026","Average":"0.00000026","Volume":"1933081.22539865","BaseVolume":"0.49967417","TimeStamp":"2017-09-30
+        17:23:13","Bid":"0.00000025","Ask":"0.00000027","IsActive":"true"},{"MarketName":"DP_BTC","PrevDay":"0.00000852","High":"0.00001083","Low":"0.00000777","Last":"0.00000972","Average":"0.00000914","Volume":"8801.16391051","BaseVolume":"0.08048116","TimeStamp":"2017-09-30
+        17:23:13","Bid":"0.00000903","Ask":"0.00000983","IsActive":"true"},{"MarketName":"DP_DOGE","PrevDay":"30.06000000","High":"30.06000000","Low":"30.00000001","Last":"30.00000001","Average":"30.03355764","Volume":"324.73833569","BaseVolume":"9753.04752326","TimeStamp":"2017-09-30
+        17:23:13","Bid":"30.00000003","Ask":"43.99999965","IsActive":"true"},{"MarketName":"DP2_BTC","PrevDay":"0.00000920","High":"0.00001080","Low":"0.00000820","Last":"0.00000998","Average":"0.00000887","Volume":"134957.79317187","BaseVolume":"1.19765368","TimeStamp":"2017-09-30
+        17:23:13","Bid":"0.00000929","Ask":"0.00000998","IsActive":"true"},{"MarketName":"DP2_DOGE","PrevDay":"37.82519848","High":"42.54271883","Low":"37.82519848","Last":"42.54271883","Average":"37.90630028","Volume":"312.88003231","BaseVolume":"11860.12445775","TimeStamp":"2017-09-30
+        17:23:13","Bid":"35.00001685","Ask":"42.54271882","IsActive":"true"},{"MarketName":"EFL_BTC","PrevDay":"0.00002655","High":"0.00002737","Low":"0.00002445","Last":"0.00002476","Average":"0.00002504","Volume":"302.57899449","BaseVolume":"0.00757522","TimeStamp":"2017-09-30
+        17:23:13","Bid":"0.00002478","Ask":"0.00002831","IsActive":"true"},{"MarketName":"EFL_DOGE","PrevDay":"32.00000001","High":"32.00000001","Low":"32.00000001","Last":"32.00000001","Average":"32.00000001","Volume":"0.50000000","BaseVolume":"16.00000001","TimeStamp":"2017-09-30
+        17:23:13","Bid":"32.00000003","Ask":"111.24999950","IsActive":"true"},{"MarketName":"ETH_BTC","PrevDay":"0.07214877","High":"0.07214877","Low":"0.06900446","Last":"0.06901376","Average":"0.06939744","Volume":"10.45244059","BaseVolume":"0.72537258","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.06901385","Ask":"0.07113152","IsActive":"true"},{"MarketName":"ETH_DOGE","PrevDay":"267314.00000217","High":"1000669.50000000","Low":"265944.00000001","Last":"265944.00000001","Average":"361965.58944742","Volume":"0.98108868","BaseVolume":"355120.34235639","TimeStamp":"2017-09-30
+        17:23:16","Bid":"265944.00000000","Ask":"296008.00000000","IsActive":"true"},{"MarketName":"EXP_BTC","PrevDay":"0.00055000","High":"0.00058190","Low":"0.00053225","Last":"0.00053266","Average":"0.00053332","Volume":"21.44949920","BaseVolume":"0.01143951","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00053294","Ask":"0.00056622","IsActive":"true"},{"MarketName":"EXP_DOGE","PrevDay":"1977.79000365","High":"1977.79000365","Low":"1977.79000365","Last":"1977.79000365","Average":"1977.79000365","Volume":"0.00000000","BaseVolume":"0.00000000","TimeStamp":"2017-09-30
+        17:23:16","Bid":"2003.85000001","Ask":"2252.89999999","IsActive":"true"},{"MarketName":"FJC_BTC","PrevDay":"0.00000014","High":"0.00000017","Low":"0.00000012","Last":"0.00000015","Average":"0.00000015","Volume":"1569729.57928850","BaseVolume":"0.24300261","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00000014","Ask":"0.00000015","IsActive":"true"},{"MarketName":"FJC_DOGE","PrevDay":"0.64999737","High":"0.64999737","Low":"0.46000430","Last":"0.64999736","Average":"0.57167011","Volume":"4869.17677619","BaseVolume":"2783.56282455","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.46000735","Ask":"0.62999999","IsActive":"true"},{"MarketName":"GB_BTC","PrevDay":"0.00000167","High":"0.00000175","Low":"0.00000154","Last":"0.00000158","Average":"0.00000164","Volume":"5191.77278751","BaseVolume":"0.00853336","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00000157","Ask":"0.00000171","IsActive":"true"},{"MarketName":"GB_DOGE","PrevDay":"7.49999562","High":"7.49999562","Low":"5.82001134","Last":"5.82001134","Average":"6.60926648","Volume":"43.86095570","BaseVolume":"289.88874408","TimeStamp":"2017-09-30
+        17:23:16","Bid":"6.00113301","Ask":"7.49999593","IsActive":"true"},{"MarketName":"HTML5_BTC","PrevDay":"0.00000003","High":"0.00000003","Low":"0.00000002","Last":"0.00000003","Average":"0.00000003","Volume":"68973272.00488029","BaseVolume":"1.78718383","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00000002","Ask":"0.00000003","IsActive":"true"},{"MarketName":"HTML5_DOGE","PrevDay":"0.09900003","High":"0.11700000","Low":"0.09900003","Last":"0.11299917","Average":"0.10305067","Volume":"4813705.93446837","BaseVolume":"496055.60725186","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.10000006","Ask":"0.11299918","IsActive":"true"},{"MarketName":"LTC_BTC","PrevDay":"0.01296793","High":"0.01296793","Low":"0.01263572","Last":"0.01265388","Average":"0.01284326","Volume":"121.75972052","BaseVolume":"1.56379187","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.01265426","Ask":"0.01311069","IsActive":"true"},{"MarketName":"MONA_BTC","PrevDay":"0.00011414","High":"0.00011823","Low":"0.00010510","Last":"0.00010510","Average":"0.00010943","Volume":"282.73365206","BaseVolume":"0.03093837","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00010114","Ask":"0.00011770","IsActive":"true"},{"MarketName":"MONA_DOGE","PrevDay":"550.00000000","High":"550.00000000","Low":"550.00000000","Last":"550.00000000","Average":"550.00000000","Volume":"0.00000000","BaseVolume":"0.00000000","TimeStamp":"2017-09-30
+        17:23:16","Bid":"250.00000002","Ask":"800.00000000","IsActive":"true"},{"MarketName":"MOON_BTC","PrevDay":"0.00000002","High":"0.00000002","Low":"0.00000001","Last":"0.00000002","Average":"0.00000001","Volume":"229991697.99721608","BaseVolume":"3.19773372","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00000001","Ask":"0.00000002","IsActive":"true"},{"MarketName":"MOON_DOGE","PrevDay":"0.03847978","High":"0.04000000","Low":"0.03847930","Last":"0.03848155","Average":"0.03945512","Volume":"7756290.37431816","BaseVolume":"306025.39837205","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.03848109","Ask":"0.03995999","IsActive":"true"},{"MarketName":"NEOS_BTC","PrevDay":"0.00068654","High":"0.00074795","Low":"0.00055540","Last":"0.00055540","Average":"0.00068503","Volume":"4.03597888","BaseVolume":"0.00276476","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00061647","Ask":"0.00072873","IsActive":"true"},{"MarketName":"NEOS_DOGE","PrevDay":"2499.99987038","High":"2499.99987038","Low":"2499.99987038","Last":"2499.99987038","Average":"2499.99987038","Volume":"0.00000000","BaseVolume":"0.00000000","TimeStamp":"2017-09-30
+        17:23:16","Bid":"312.00000032","Ask":"2800.00000002","IsActive":"true"},{"MarketName":"NLG_BTC","PrevDay":"0.00002749","High":"0.00002900","Low":"0.00002749","Last":"0.00002788","Average":"0.00002771","Volume":"111.60531605","BaseVolume":"0.00309241","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00002754","Ask":"0.00002800","IsActive":"true"},{"MarketName":"NLG_DOGE","PrevDay":"109.08000001","High":"109.08000001","Low":"105.00000009","Last":"109.08000000","Average":"108.89105339","Volume":"35.63962435","BaseVolume":"3880.83623781","TimeStamp":"2017-09-30
+        17:23:16","Bid":"105.00000044","Ask":"113.39999997","IsActive":"true"},{"MarketName":"NMC_BTC","PrevDay":"0.00033207","High":"0.00033207","Low":"0.00031003","Last":"0.00031003","Average":"0.00033073","Volume":"11.96186564","BaseVolume":"0.00395612","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00031003","Ask":"0.00032543","IsActive":"true"},{"MarketName":"NMC_DOGE","PrevDay":"1240.89000001","High":"1240.89000001","Low":"1240.89000001","Last":"1240.89000001","Average":"1240.89000001","Volume":"0.04000000","BaseVolume":"49.63560000","TimeStamp":"2017-09-30
+        17:23:16","Bid":"1160.27000001","Ask":"1302.79999965","IsActive":"true"},{"MarketName":"NVC_BTC","PrevDay":"0.00101996","High":"0.00101996","Low":"0.00090000","Last":"0.00090102","Average":"0.00092075","Volume":"10.75324593","BaseVolume":"0.00990107","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00091019","Ask":"0.00100459","IsActive":"true"},{"MarketName":"NVC_DOGE","PrevDay":"2640.50000173","High":"2640.50000173","Low":"2640.50000173","Last":"2640.50000173","Average":"2640.50000173","Volume":"0.26050000","BaseVolume":"687.85025045","TimeStamp":"2017-09-30
+        17:23:16","Bid":"2640.49999950","Ask":"5239.99999363","IsActive":"true"},{"MarketName":"OK_BTC","PrevDay":"0.00007216","High":"0.00007987","Low":"0.00006655","Last":"0.00007591","Average":"0.00007634","Volume":"2404.23111083","BaseVolume":"0.18354650","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00007395","Ask":"0.00007806","IsActive":"true"},{"MarketName":"OK_DOGE","PrevDay":"275.00000605","High":"320.00000000","Low":"275.00000003","Last":"275.00000003","Average":"278.58932886","Volume":"2.66109950","BaseVolume":"741.35392374","TimeStamp":"2017-09-30
+        17:23:16","Bid":"277.00000001","Ask":"325.00000000","IsActive":"true"},{"MarketName":"POT_BTC","PrevDay":"0.00001858","High":"0.00001926","Low":"0.00001841","Last":"0.00001862","Average":"0.00001875","Volume":"234.96398618","BaseVolume":"0.00440578","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00001862","Ask":"0.00001926","IsActive":"true"},{"MarketName":"POT_DOGE","PrevDay":"60.99997993","High":"60.99997993","Low":"9.11000051","Last":"9.11000051","Average":"30.03665393","Volume":"421.00000000","BaseVolume":"12645.43130431","TimeStamp":"2017-09-30
+        17:23:16","Bid":"20.46581000","Ask":"114.79999874","IsActive":"true"},{"MarketName":"PPC_BTC","PrevDay":"0.00030128","High":"0.00031974","Low":"0.00029064","Last":"0.00031741","Average":"0.00030620","Volume":"39.68325989","BaseVolume":"0.01215119","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00029170","Ask":"0.00031709","IsActive":"true"},{"MarketName":"PPC_DOGE","PrevDay":"1131.00000001","High":"1131.00000003","Low":"1131.00000001","Last":"1131.00000003","Average":"1131.00000002","Volume":"1.95420371","BaseVolume":"2210.20439604","TimeStamp":"2017-09-30
+        17:23:16","Bid":"1131.00000003","Ask":"1299.99999999","IsActive":"true"},{"MarketName":"RDD_BTC","PrevDay":"0.00000028","High":"0.00000032","Low":"0.00000028","Last":"0.00000030","Average":"0.00000030","Volume":"242216.54522826","BaseVolume":"0.07366346","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00000029","Ask":"0.00000030","IsActive":"true"},{"MarketName":"RDD_DOGE","PrevDay":"1.16000000","High":"1.24443998","Low":"1.04000000","Last":"1.16000000","Average":"1.10119669","Volume":"23507.60213825","BaseVolume":"25886.49361935","TimeStamp":"2017-09-30
+        17:23:16","Bid":"1.16000000","Ask":"1.21999989","IsActive":"true"},{"MarketName":"SLG_BTC","PrevDay":"0.00000840","High":"0.00000990","Low":"0.00000824","Last":"0.00000990","Average":"0.00000909","Volume":"3914.02592145","BaseVolume":"0.03556229","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00000859","Ask":"0.00000987","IsActive":"true"},{"MarketName":"SLG_DOGE","PrevDay":"40.90869611","High":"40.90869611","Low":"40.90869611","Last":"40.90869611","Average":"40.90869611","Volume":"0.80000000","BaseVolume":"32.72695689","TimeStamp":"2017-09-30
+        17:23:16","Bid":"30.00000007","Ask":"40.90869582","IsActive":"true"},{"MarketName":"SLR_BTC","PrevDay":"0.00005913","High":"0.00006058","Low":"0.00005713","Last":"0.00005851","Average":"0.00005849","Volume":"138.58383875","BaseVolume":"0.00810631","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00005627","Ask":"0.00006083","IsActive":"true"},{"MarketName":"SLR_DOGE","PrevDay":"141.66725353","High":"141.66725353","Low":"141.66725353","Last":"141.66725353","Average":"141.66725353","Volume":"1.00000000","BaseVolume":"141.66725353","TimeStamp":"2017-09-30
+        17:23:16","Bid":"163.99755440","Ask":"236.63548294","IsActive":"true"},{"MarketName":"START_BTC","PrevDay":"0.00001503","High":"0.00001667","Low":"0.00001383","Last":"0.00001417","Average":"0.00001475","Volume":"2981.20031699","BaseVolume":"0.04397196","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00001421","Ask":"0.00001542","IsActive":"true"},{"MarketName":"START_DOGE","PrevDay":"56.00000000","High":"59.44999998","Low":"54.60000020","Last":"54.60000023","Average":"54.95157902","Volume":"37.92827252","BaseVolume":"2084.21846446","TimeStamp":"2017-09-30
+        17:23:16","Bid":"54.60000026","Ask":"75.99985851","IsActive":"true"},{"MarketName":"TROLL_BTC","PrevDay":"0.00000017","High":"0.00000019","Low":"0.00000015","Last":"0.00000016","Average":"0.00000016","Volume":"82051.87313690","BaseVolume":"0.01305444","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00000016","Ask":"0.00000017","IsActive":"true"},{"MarketName":"TROLL_DOGE","PrevDay":"0.67000007","High":"0.69999999","Low":"0.62000001","Last":"0.67999961","Average":"0.66931673","Volume":"11986.30544870","BaseVolume":"8022.63473050","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.62000015","Ask":"0.67999998","IsActive":"true"},{"MarketName":"UNO_BTC","PrevDay":"0.02660000","High":"0.02670000","Low":"0.02510003","Last":"0.02670000","Average":"0.02665189","Volume":"0.85484537","BaseVolume":"0.02278324","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.02670000","Ask":"0.02680000","IsActive":"true"},{"MarketName":"UNO_DOGE","PrevDay":"82000.00001233","High":"82000.00001233","Low":"82000.00001233","Last":"82000.00001233","Average":"82000.00001233","Volume":"0.00212250","BaseVolume":"174.04500003","TimeStamp":"2017-09-30
+        17:23:16","Bid":"82000.00001236","Ask":"121899.99992700","IsActive":"true"},{"MarketName":"VRC_BTC","PrevDay":"0.00008224","High":"0.00008930","Low":"0.00008028","Last":"0.00008028","Average":"0.00008121","Volume":"539.61872275","BaseVolume":"0.04382269","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00008095","Ask":"0.00008760","IsActive":"true"},{"MarketName":"VRC_DOGE","PrevDay":"239.20708785","High":"346.99999999","Low":"239.20708785","Last":"257.00000004","Average":"295.78088813","Volume":"1.37940832","BaseVolume":"408.00261799","TimeStamp":"2017-09-30
+        17:23:16","Bid":"257.00000004","Ask":"346.99999999","IsActive":"true"},{"MarketName":"VTC_BTC","PrevDay":"0.00024924","High":"0.00026640","Low":"0.00023007","Last":"0.00023007","Average":"0.00024960","Volume":"78.54230574","BaseVolume":"0.01960378","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00023259","Ask":"0.00026471","IsActive":"true"},{"MarketName":"VTC_DOGE","PrevDay":"706.75500015","High":"706.75500015","Low":"706.75500015","Last":"706.75500015","Average":"706.75500015","Volume":"0.02135326","BaseVolume":"15.09152327","TimeStamp":"2017-09-30
+        17:23:16","Bid":"706.75500023","Ask":"1030.99571636","IsActive":"true"},{"MarketName":"WDC_BTC","PrevDay":"0.00000275","High":"0.00000340","Low":"0.00000259","Last":"0.00000301","Average":"0.00000302","Volume":"110504.08832678","BaseVolume":"0.33331514","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00000292","Ask":"0.00000301","IsActive":"true"},{"MarketName":"WDC_DOGE","PrevDay":"12.49999988","High":"15.50000000","Low":"10.00000030","Last":"15.00000000","Average":"13.36811380","Volume":"1733.60040997","BaseVolume":"23174.96756176","TimeStamp":"2017-09-30
+        17:23:16","Bid":"10.50000698","Ask":"15.49999999","IsActive":"true"},{"MarketName":"XPM_BTC","PrevDay":"0.00004196","High":"0.00004286","Low":"0.00003943","Last":"0.00003973","Average":"0.00004122","Volume":"71.31689313","BaseVolume":"0.00293948","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00003973","Ask":"0.00004265","IsActive":"true"},{"MarketName":"XPM_DOGE","PrevDay":"152.99999983","High":"152.99999984","Low":"152.99999983","Last":"152.99999984","Average":"152.99999984","Volume":"3.20736051","BaseVolume":"490.72615751","TimeStamp":"2017-09-30
+        17:23:16","Bid":"152.99999984","Ask":"188.99999983","IsActive":"true"},{"MarketName":"XVP_BTC","PrevDay":"0.00000690","High":"0.00000719","Low":"0.00000640","Last":"0.00000718","Average":"0.00000678","Volume":"6144.24235853","BaseVolume":"0.04167300","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00000667","Ask":"0.00000718","IsActive":"true"},{"MarketName":"XVP_DOGE","PrevDay":"26.60000000","High":"26.60000000","Low":"26.60000000","Last":"26.60000000","Average":"26.60000000","Volume":"0.00000000","BaseVolume":"0.00000000","TimeStamp":"2017-09-30
+        17:23:16","Bid":"23.40000009","Ask":"29.99999990","IsActive":"true"},{"MarketName":"ZET_BTC","PrevDay":"0.00000095","High":"0.00000097","Low":"0.00000092","Last":"0.00000092","Average":"0.00000095","Volume":"60091.93825969","BaseVolume":"0.05711058","TimeStamp":"2017-09-30
+        17:23:16","Bid":"0.00000091","Ask":"0.00000096","IsActive":"true"},{"MarketName":"ZET_DOGE","PrevDay":"5.46992998","High":"5.46992998","Low":"3.60000005","Last":"3.60000009","Average":"4.97466376","Volume":"526.59646647","BaseVolume":"2619.64035886","TimeStamp":"2017-09-30
+        17:23:16","Bid":"3.60000009","Ask":"5.45000004","IsActive":"true"}]}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:23:17 GMT
+recorded_with: VCR 3.0.3

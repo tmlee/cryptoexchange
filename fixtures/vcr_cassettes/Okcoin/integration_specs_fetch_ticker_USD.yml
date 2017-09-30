@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.okcoin.com/api/v1/ticker.do?symbol=btc_usd
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - www.okcoin.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Sep 2017 17:25:43 GMT
+      Content-Type:
+      - text/html;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d3bfa2785c0f733976246c76489fcff031506792343; expires=Sun, 30-Sep-18
+        17:25:43 GMT; path=/; domain=.okcoin.com; HttpOnly
+      - coin_session_id_o=11db6b83-48d1-45b4-b42c-d09affd40cccKzCF; Domain=okcoin.com;
+        Path=/; Secure; HttpOnly
+      - language=1; Expires=Sat, 07-Oct-2017 17:25:43 GMT; Path=/
+      Cache-Control:
+      - no-store
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a68e2156e972d11-KUL
+    body:
+      encoding: UTF-8
+      string: '{"date":"1506792343","ticker":{"buy":"4315.46","high":"4407.5","last":"4359.9","low":"4154.91","sell":"4359.9","vol":"369.457"}}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:25:43 GMT
+recorded_with: VCR 3.0.3

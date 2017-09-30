@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.kraken.com/0/public/Ticker?pair=BCHEUR
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.kraken.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Sep 2017 17:24:58 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=dfdb0ee47ba78c250ac93a7737c6886561506792297; expires=Sun, 30-Sep-18
+        17:24:57 GMT; path=/; domain=.kraken.com; HttpOnly
+      Cache-Control:
+      - public,max-age=1,smaxage=1
+      Vary:
+      - Accept-Encoding
+      Cf-Cache-Status:
+      - EXPIRED
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a68e0f11c752cdb-KUL
+    body:
+      encoding: UTF-8
+      string: '{"error":[],"result":{"BCHEUR":{"a":["373.000000","1","1.000"],"b":["372.200000","2","2.000"],"c":["370.200000","4.00104880"],"v":["2367.66564182","2679.85983290"],"p":["373.766719","373.546776"],"t":[1837,2299],"l":["366.700000","366.700000"],"h":["379.400000","379.400000"],"o":"370.600000"}}}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:24:58 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.bitstamp.net/api/v2/ticker/btcusd
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - www.bitstamp.net
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Etag:
+      - '"68ae5-b8-55a6b6823f030"'
+      Last-Modified:
+      - Sat, 30 Sep 2017 17:23:58 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '184'
+      Connection:
+      - keep-alive
+      Date:
+      - Sat, 30 Sep 2017 17:24:09 GMT
+      Set-Cookie:
+      - incap_ses_429_99025=SsF7RhT6yzuoPnYkvs/0BTnTz1kAAAAA86HZLFFkPn+/aqI76ntXkQ==;
+        path=/; Domain=.bitstamp.net
+      - visid_incap_99025=NKS6PvVdST2WhQ2F41F2zTnTz1kAAAAAQUIPAAAAAACr5Dr7UEcCRnRh9qrLGx5k;
+        expires=Sun, 30 Sep 2018 13:25:48 GMT; path=/; Domain=.bitstamp.net
+      X-Iinfo:
+      - 9-54907610-54905356 2CNN RT(1506792249505 93) q(0 1 1 1) r(1 1)
+      X-Cdn:
+      - Incapsula
+    body:
+      encoding: ASCII-8BIT
+      string: '{"high": "4347.20", "last": "4306.05", "timestamp": "1506792238", "bid":
+        "4299.92", "vwap": "4243.09", "volume": "7843.34300881", "low": "4132.01",
+        "ask": "4306.99", "open": "4162.04"}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:24:10 GMT
+recorded_with: VCR 3.0.3

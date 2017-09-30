@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.okcoin.cn/api/v1/ticker.do?symbol=btc_cny
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - www.okcoin.cn
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 30 Sep 2017 17:25:45 GMT
+      Content-Type:
+      - text/html;charset=UTF-8
+      Content-Length:
+      - '133'
+      Connection:
+      - close
+      Set-Cookie:
+      - coin_session_id_o=05eda55a-77da-4842-8f7e-7ad70fc8a090lqwS; Domain=okcoin.cn;
+        Path=/; Secure; HttpOnly
+      - language=1; Expires=Sat, 07-Oct-2017 17:25:45 GMT; Path=/
+      Cache-Control:
+      - no-store
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+    body:
+      encoding: UTF-8
+      string: '{"date":"1506792345","ticker":{"buy":"26590.0","high":"27280.0","last":"26601.0","low":"25300.0","sell":"26601.0","vol":"4031.8412"}}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:25:45 GMT
+recorded_with: VCR 3.0.3

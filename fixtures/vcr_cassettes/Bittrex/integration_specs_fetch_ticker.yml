@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://bittrex.com/api/v1.1/public/getmarketsummary?market=BTC-LTC
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - bittrex.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Sep 2017 17:24:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d754a2921b1ad456edb0a3ce212b756821506792251; expires=Sun, 30-Sep-18
+        17:24:11 GMT; path=/; domain=.bittrex.com; HttpOnly
+      Cache-Control:
+      - public, max-age=0
+      Expires:
+      - Sat, 30 Sep 2017 17:24:11 GMT
+      Last-Modified:
+      - Sat, 30 Sep 2017 17:24:10 GMT
+      Vary:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=15768000
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      Cf-Cache-Status:
+      - EXPIRED
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a68dfd15d232d23-KUL
+    body:
+      encoding: UTF-8
+      string: '{"success":true,"message":"","result":[{"MarketName":"BTC-LTC","High":0.01296498,"Low":0.01265169,"Volume":63426.86553204,"Last":0.01282698,"BaseVolume":809.57856406,"TimeStamp":"2017-09-30T17:23:28.89","Bid":0.01282250,"Ask":0.01282698,"OpenBuyOrders":2864,"OpenSellOrders":11245,"PrevDay":0.01278132,"Created":"2014-02-13T00:00:00"}]}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:24:11 GMT
+recorded_with: VCR 3.0.3

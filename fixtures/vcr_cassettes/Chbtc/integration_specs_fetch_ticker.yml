@@ -1,0 +1,38 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.chbtc.com/data/v1/ticker?currency=btc_cny
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.chbtc.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Tengine/2.1.2
+      Date:
+      - Sat, 30 Sep 2017 17:24:28 GMT
+      Content-Type:
+      - text/javascript;charset=utf-8
+      Content-Length:
+      - '128'
+      Connection:
+      - close
+      Cndserver:
+      - cache_server_1
+    body:
+      encoding: UTF-8
+      string: '{"ticker":{"vol":"3190.296","last":"27197","sell":"27197","buy":"27130","high":"27498.81","low":"25201"},"date":"1506792267771"}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:24:28 GMT
+recorded_with: VCR 3.0.3

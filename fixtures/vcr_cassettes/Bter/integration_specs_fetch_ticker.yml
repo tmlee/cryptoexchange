@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://data.bter.com/api2/1/ticker/BTC_CNY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - data.bter.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Sep 2017 17:24:13 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d41d67b6db291cc97a5a01e0a7d69e41f1506792253; expires=Sun, 30-Sep-18
+        17:24:13 GMT; path=/; domain=.bter.com; HttpOnly
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Powered-By:
+      - CF ()
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-cache, must-revalidate
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a68dfdffc162d17-KUL
+    body:
+      encoding: ASCII-8BIT
+      string: '{"result":"true","last":24801,"lowestAsk":25295.78,"highestBid":24801.21,"percentChange":3.9874213836478,"baseVolume":2861489.34,"quoteVolume":118.0101,"high24hr":25500.01,"low24hr":23381}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:24:13 GMT
+recorded_with: VCR 3.0.3

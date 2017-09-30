@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://coincheck.com/api/ticker
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - coincheck.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Sep 2017 17:24:29 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Server:
+      - nginx/1.10.2
+      Status:
+      - 200 OK
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"3d4b7de4cba893d83674f50336ef6202"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 87356e5a-f56e-433c-81ef-3065332058b3
+      X-Runtime:
+      - '0.005627'
+    body:
+      encoding: UTF-8
+      string: '{"last":483386.0,"bid":483373.0,"ask":483396.0,"high":487777.0,"low":461290.0,"volume":33372.78750442,"timestamp":1506792264}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:24:29 GMT
+recorded_with: VCR 3.0.3

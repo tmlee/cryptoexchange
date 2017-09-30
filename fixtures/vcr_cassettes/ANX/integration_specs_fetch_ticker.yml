@@ -1,0 +1,112 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://anxpro.com/api/2/BTCUSD/money/ticker
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - anxpro.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Sep 2017 17:23:55 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d4d9ec3be2662d5224edefb577d67a38e1506792235; expires=Sun, 30-Sep-18
+        17:23:55 GMT; path=/; domain=.anxpro.com; HttpOnly
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-Cached:
+      - HIT
+      Cache-Key:
+      - "/api/2/BTCUSD/money/ticker?extraCcyPairs="
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a68df6e1ea02cf9-KUL
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "result": "success",
+          "data": {
+            "high": {
+              "display_short": "4,352.48 USD",
+              "value_int": "435247912",
+              "currency": "USD",
+              "display": "4,352.47912 USD",
+              "value": "4352.47912"
+            },
+            "low": {
+              "display_short": "4,096.45 USD",
+              "value_int": "409645094",
+              "currency": "USD",
+              "display": "4,096.45094 USD",
+              "value": "4096.45094"
+            },
+            "avg": {
+              "display_short": "4,225.56 USD",
+              "value_int": "422555904",
+              "currency": "USD",
+              "display": "4,225.55904 USD",
+              "value": "4225.55904"
+            },
+            "vwap": {
+              "display_short": "2.63 USD",
+              "value_int": "262788",
+              "currency": "USD",
+              "display": "2.62788 USD",
+              "value": "2.62788"
+            },
+            "vol": {
+              "display_short": "57.56 BTC",
+              "value_int": "5756101763",
+              "currency": "BTC",
+              "display": "57.56101763 BTC",
+              "value": "57.56101763"
+            },
+            "last": {
+              "display_short": "4,352.47 USD",
+              "value_int": "435247013",
+              "currency": "USD",
+              "display": "4,352.47013 USD",
+              "value": "4352.47013"
+            },
+            "buy": {
+              "display_short": "4,292.30 USD",
+              "value_int": "429230000",
+              "currency": "USD",
+              "display": "4,292.30000 USD",
+              "value": "4292.30000"
+            },
+            "sell": {
+              "display_short": "4,322.15 USD",
+              "value_int": "432215000",
+              "currency": "USD",
+              "display": "4,322.15000 USD",
+              "value": "4322.15000"
+            },
+            "now": "1506792235128000",
+            "dataUpdateTime": "1506792233885000"
+          }
+        }
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:23:55 GMT
+recorded_with: VCR 3.0.3

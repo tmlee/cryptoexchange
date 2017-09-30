@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.bitfinex.com/v1/pubticker/OMGETH
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.bitfinex.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Sep 2017 17:24:03 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d7ff1a4787394468b665a03eb73ac25d31506792241; expires=Sun, 30-Sep-18
+        17:24:01 GMT; path=/; domain=.bitfinex.com; HttpOnly
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Vary:
+      - Accept-Encoding
+      Etag:
+      - W/"d3656d002a9079aff29ebe3a7cf5c09d"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a9e80112-05d1-460f-a24a-614a89d2dcbd
+      X-Runtime:
+      - '0.006570'
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a68df967c442ccf-KUL
+    body:
+      encoding: UTF-8
+      string: '{"mid":"0.033376","bid":"0.03321","ask":"0.033542","last_price":"0.033503","low":"0.032834","high":"0.034139","volume":"51787.60669046","timestamp":"1506792242.851131488"}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:24:03 GMT
+recorded_with: VCR 3.0.3

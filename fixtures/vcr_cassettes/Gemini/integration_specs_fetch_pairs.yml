@@ -1,0 +1,36 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.gemini.com/v1/symbols
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.gemini.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Sep 2017 17:24:41 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '28'
+      Connection:
+      - close
+      Server:
+      - nginx
+    body:
+      encoding: ASCII-8BIT
+      string: '["btcusd","ethbtc","ethusd"]'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:24:41 GMT
+recorded_with: VCR 3.0.3

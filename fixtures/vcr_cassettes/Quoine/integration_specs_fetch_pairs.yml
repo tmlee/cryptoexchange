@@ -1,0 +1,94 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.quoine.com/products
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.quoine.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Sep 2017 17:25:52 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d0ffa7557699b81d9b9cc8d4d119772c91506792351; expires=Sun, 30-Sep-18
+        17:25:51 GMT; path=/; domain=.quoine.com; HttpOnly
+      - _vax_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTM0ZDNjNTBmMWJlNzdmYzczZjY0MGU4Yzc2MjAxZGVhBjsAVEkiCWxhbmcGOwBGOgdlbg%3D%3D--bbdbb92b621b8851a73a0bb27204147f2c0fbf25;
+        path=/; secure; HttpOnly
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"5b08c0b3b42b9fc10af10ddbfa836bd3"
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631152000; includeSubdomains
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 spaces-router (92d2bbfc1095)
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Powered-By:
+      - Phusion Passenger 5.1.2
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 3083efc0-9ddc-9285-19c0-5b7b6bf8c35b
+      X-Runtime:
+      - '0.116963'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a68e242ca242d17-KUL
+    body:
+      encoding: UTF-8
+      string: '[{"id":"1","product_type":"CurrencyPair","code":"CASH","name":" CASH
+        Trading","market_ask":4305.01411,"market_bid":4300.79126,"indicator":-1,"currency":"USD","currency_pair_code":"BTCUSD","symbol":"$","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":15.0,"pusher_channel":"product_cash_btcusd_1","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"4108.91936","high_market_ask":"4339.68864","volume_24h":"1069.90593004","last_price_24h":"4167.82709","last_traded_price":"4302.57532","last_traded_quantity":"0.5","quoted_currency":"USD","base_currency":"BTC"},{"id":"3","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":3643.32122,"market_bid":3640.71467,"indicator":1,"currency":"EUR","currency_pair_code":"BTCEUR","symbol":"€","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":15.0,"pusher_channel":"product_cash_btceur_3","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"3477.73276","high_market_ask":"3672.46402","volume_24h":"1017.956498","last_price_24h":"3532.52209","last_traded_price":"3631.53793","last_traded_quantity":"1.86998","quoted_currency":"EUR","base_currency":"BTC"},{"id":"5","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":484311.55588,"market_bid":483820.9,"indicator":-1,"currency":"JPY","currency_pair_code":"BTCJPY","symbol":"¥","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":1500.0,"pusher_channel":"product_cash_btcjpy_5","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"463000.0","high_market_ask":"488171.04184","volume_24h":"4677.3911768","last_price_24h":"469405.4498","last_traded_price":"484311.55588","last_traded_quantity":"0.1","quoted_currency":"JPY","base_currency":"BTC"},{"id":"7","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":5845.4967,"market_bid":5838.41443,"indicator":-1,"currency":"SGD","currency_pair_code":"BTCSGD","symbol":"S$","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":15.0,"pusher_channel":"product_cash_btcsgd_7","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"5579.23818","high_market_ask":"5892.44148","volume_24h":"895.21647044","last_price_24h":"5653.70746","last_traded_price":"5839.42351","last_traded_quantity":"0.08856715","quoted_currency":"SGD","base_currency":"BTC"},{"id":"9","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":33633.26668,"market_bid":33603.17011,"indicator":-1,"currency":"HKD","currency_pair_code":"BTCHKD","symbol":"HK$","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":120.0,"pusher_channel":"product_cash_btchkd_9","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"31879.54968","high_market_ask":"33964.61502","volume_24h":"612.56058","last_price_24h":"32589.45151","last_traded_price":"33670.88993","last_traded_quantity":"0.77499","quoted_currency":"HKD","base_currency":"BTC"},{"id":"11","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":57951461.36363,"market_bid":57931420.1563,"indicator":1,"currency":"IDR","currency_pair_code":"BTCIDR","symbol":"Rp","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":200000.0,"pusher_channel":"product_cash_btcidr_11","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"55420217.48224","high_market_ask":"58416017.04216","volume_24h":"1157.35252","last_price_24h":"56259106.54523","last_traded_price":"57920848.78018","last_traded_quantity":"0.60798","quoted_currency":"IDR","base_currency":"BTC"},{"id":"13","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":5495.90027,"market_bid":5491.96832,"indicator":-1,"currency":"AUD","currency_pair_code":"BTCAUD","symbol":"AU$","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":15.0,"pusher_channel":"product_cash_btcaud_13","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"5212.32369","high_market_ask":"5542.77639","volume_24h":"1705.45194","last_price_24h":"5317.53032","last_traded_price":"5489.65585","last_traded_quantity":"1.61209","quoted_currency":"AUD","base_currency":"BTC"},{"id":"15","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":218850.41428,"market_bid":218802.26794,"indicator":1,"currency":"PHP","currency_pair_code":"BTCPHP","symbol":"₱","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":675.0,"pusher_channel":"product_cash_btcphp_15","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"207747.84781","high_market_ask":"220682.27753","volume_24h":"829.9978","last_price_24h":"212308.58677","last_traded_price":"218658.10143","last_traded_quantity":"0.80787","quoted_currency":"PHP","base_currency":"BTC"},{"id":"17","product_type":"CurrencyPair","code":"CASH","name":"CASH
+        Trading","market_ask":29480.12536,"market_bid":27900.1683,"indicator":1,"currency":"CNY","currency_pair_code":"BTCCNY","symbol":"¥","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":0.0,"pusher_channel":"product_cash_btccny_17","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"26749.91849","high_market_ask":"29750.35548","volume_24h":"0.0","last_price_24h":"27011.52093","last_traded_price":"26067.09188","last_traded_quantity":"0.01","quoted_currency":"CNY","base_currency":"BTC"},{"id":"18","product_type":"CurrencyPair","code":"CASH","name":"CASH
+        Trading","market_ask":289380.68431,"market_bid":273945.09711,"indicator":-1,"currency":"INR","currency_pair_code":"BTCINR","symbol":"₹","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":2000.0,"pusher_channel":"product_cash_btcinr_18","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"267200.0","high_market_ask":"292080.20814","volume_24h":"0.0","last_price_24h":"267200.0","last_traded_price":"283810.95324","last_traded_quantity":"0.26469724","quoted_currency":"INR","base_currency":"BTC"},{"id":"27","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":303.12727,"market_bid":302.76787,"indicator":-1,"currency":"USD","currency_pair_code":"ETHUSD","symbol":"$","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":15.0,"pusher_channel":"product_cash_ethusd_27","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"280.0","high_market_ask":"305.67431","volume_24h":"1223.71084","last_price_24h":"294.51343","last_traded_price":"302.57102","last_traded_quantity":"0.01613","quoted_currency":"USD","base_currency":"ETH"},{"id":"28","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":256.55907,"market_bid":256.25489,"indicator":-1,"currency":"EUR","currency_pair_code":"ETHEUR","symbol":"€","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":15.0,"pusher_channel":"product_cash_etheur_28","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"225.8","high_market_ask":"305.53146","volume_24h":"1132.48124","last_price_24h":"249.49604","last_traded_price":"256.30149","last_traded_quantity":"4.80974","quoted_currency":"EUR","base_currency":"ETH"},{"id":"29","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":34108.78787,"market_bid":34062.29402,"indicator":1,"currency":"JPY","currency_pair_code":"ETHJPY","symbol":"¥","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":1500.0,"pusher_channel":"product_cash_ethjpy_29","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"32522.0","high_market_ask":"34370.4742","volume_24h":"25164.29494","last_price_24h":"33182.87399","last_traded_price":"34073.84838","last_traded_quantity":"9.77188","quoted_currency":"JPY","base_currency":"ETH"},{"id":"30","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":411.5862,"market_bid":411.09821,"indicator":-1,"currency":"SGD","currency_pair_code":"ETHSGD","symbol":"S$","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":15.0,"pusher_channel":"product_cash_ethsgd_30","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"391.0","high_market_ask":"414.55455","volume_24h":"1121.326844","last_price_24h":"399.51101","last_traded_price":"411.87865","last_traded_quantity":"4.77124","quoted_currency":"SGD","base_currency":"ETH"},{"id":"31","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":2367.97401,"market_bid":2365.13341,"indicator":-1,"currency":"HKD","currency_pair_code":"ETHHKD","symbol":"HK$","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":120.0,"pusher_channel":"product_cash_ethhkd_31","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"0.0","high_market_ask":"2386.81857","volume_24h":"1837.2464","last_price_24h":"2300.60728","last_traded_price":"2365.41563","last_traded_quantity":"4.9565","quoted_currency":"HKD","base_currency":"ETH"},{"id":"32","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":4084349.01251,"market_bid":4079449.46281,"indicator":-1,"currency":"IDR","currency_pair_code":"ETHIDR","symbol":"Rp","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":200000.0,"pusher_channel":"product_cash_ethidr_32","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"0.0","high_market_ask":"4118335.05736","volume_24h":"1492.81542","last_price_24h":"3970910.99198","last_traded_price":"4079998.92553","last_traded_quantity":"4.8","quoted_currency":"IDR","base_currency":"ETH"},{"id":"33","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":387.07393,"market_bid":386.615,"indicator":-1,"currency":"AUD","currency_pair_code":"ETHAUD","symbol":"AU$","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":15.0,"pusher_channel":"product_cash_ethaud_33","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"0.5","high_market_ask":"394.28397","volume_24h":"1382.37122","last_price_24h":"375.757","last_traded_price":"389.2149","last_traded_quantity":"5.47626","quoted_currency":"AUD","base_currency":"ETH"},{"id":"34","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":15426.25443,"market_bid":15407.74923,"indicator":-1,"currency":"PHP","currency_pair_code":"ETHPHP","symbol":"₱","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":675.0,"pusher_channel":"product_cash_ethphp_34","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"0.0","high_market_ask":"15571.44308","volume_24h":"1774.916","last_price_24h":"14987.6312","last_traded_price":"15441.09501","last_traded_quantity":"4.9565","quoted_currency":"PHP","base_currency":"ETH"},{"id":"35","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":0.0,"market_bid":0.0,"indicator":-1,"currency":"CNY","currency_pair_code":"ETHCNY","symbol":"¥","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":0.0,"pusher_channel":"product_cash_ethcny_35","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"0.0","high_market_ask":"0.0","volume_24h":"0.0","last_price_24h":"0.0","last_traded_price":"","last_traded_quantity":"","quoted_currency":"CNY","base_currency":"ETH"},{"id":"36","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":0.0,"market_bid":0.0,"indicator":-1,"currency":"INR","currency_pair_code":"ETHINR","symbol":"₹","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":2000.0,"pusher_channel":"product_cash_ethinr_36","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"0.0","high_market_ask":"0.0","volume_24h":"0.0","last_price_24h":"0.0","last_traded_price":"","last_traded_quantity":"","quoted_currency":"INR","base_currency":"ETH"},{"id":"37","product_type":"CurrencyPair","code":"CASH","name":null,"market_ask":0.07196,"market_bid":0.07066,"indicator":-1,"currency":"BTC","currency_pair_code":"ETHBTC","symbol":"฿","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":0.02,"pusher_channel":"product_cash_ethbtc_37","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"0.07","high_market_ask":"0.08994","volume_24h":"897.29932986","last_price_24h":"0.06975","last_traded_price":"0.07065","last_traded_quantity":"0.5","quoted_currency":"BTC","base_currency":"ETH"},{"id":"39","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":537.0,"market_bid":401.0,"indicator":-1,"currency":"USD","currency_pair_code":"BCHUSD","symbol":"$","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":15.0,"pusher_channel":"product_cash_bchusd_39","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"0.0","high_market_ask":"0.0","volume_24h":"0.0","last_price_24h":"401.0","last_traded_price":"501.0","last_traded_quantity":"1.0","quoted_currency":"USD","base_currency":"BCH"},{"id":"40","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":645.0,"market_bid":520.0,"indicator":-1,"currency":"SGD","currency_pair_code":"BCHSGD","symbol":"S$","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":15.0,"pusher_channel":"product_cash_bchsgd_40","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"520.0","high_market_ask":"649.0","volume_24h":"0.0","last_price_24h":"520.0","last_traded_price":"649.0","last_traded_quantity":"0.0085","quoted_currency":"SGD","base_currency":"BCH"},{"id":"41","product_type":"CurrencyPair","code":"CASH","name":"
+        CASH Trading","market_ask":60000.0,"market_bid":46000.0,"indicator":-1,"currency":"JPY","currency_pair_code":"BCHJPY","symbol":"¥","btc_minimum_withdraw":0.02,"fiat_minimum_withdraw":1500.0,"pusher_channel":"product_cash_bchjpy_41","taker_fee":0.0,"maker_fee":0.0,"low_market_bid":"46000.0","high_market_ask":"60000.0","volume_24h":"0.0","last_price_24h":"46002.0","last_traded_price":"60430.0","last_traded_quantity":"0.9","quoted_currency":"JPY","base_currency":"BCH"}]'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:25:52 GMT
+recorded_with: VCR 3.0.3

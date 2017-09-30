@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.korbit.co.kr/v1/ticker/detailed?currency_pair=btc_krw
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.korbit.co.kr
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Sep 2017 17:24:50 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Content-Length:
+      - '185'
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d61d4017d62836f41fd6352fb34c729081506792290; expires=Sun, 30-Sep-18
+        17:24:50 GMT; path=/; domain=.korbit.co.kr; HttpOnly
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 20727a41271159e4693d72384884a5bd.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - lIWN2cls_KPVH5m5W-qMaHkohTspvC2vKbCQXzXRy0pjatETRCgxOg==
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a68e0c4ae262ced-KUL
+    body:
+      encoding: UTF-8
+      string: '{"timestamp":1506792158249,"last":"4793000","bid":"4793500","ask":"4795000","low":"4620000","high":"4841500","volume":"3783.837773763922788923","change":"116000","changePercent":"2.48"}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:24:50 GMT
+recorded_with: VCR 3.0.3

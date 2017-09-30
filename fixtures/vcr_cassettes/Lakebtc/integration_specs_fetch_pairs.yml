@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.lakebtc.com/api_v2/ticker
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.lakebtc.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 30 Sep 2017 17:24:59 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2331'
+      Connection:
+      - close
+      Status:
+      - 200 OK
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Request-Id:
+      - 1cba85b6-e532-4206-b71e-2aaaf96f45df
+      Etag:
+      - '"5b91155521b68e57dce3d5086175f4e8"'
+      X-Runtime:
+      - '1.029065'
+      Strict-Transport-Security:
+      - max-age=31536000
+      Cache-Control:
+      - public
+    body:
+      encoding: ASCII-8BIT
+      string: '{"btcusd":{"high":"4541.0","low":"4348.45","volume":"1597.460393","last":"4496.05","bid":"4495.07","ask":"4533.9"},"btceur":{"high":"3851.52","low":"3683.25","volume":"188.765103","last":"3795.03","bid":"3800.18","ask":"3840.67"},"btcjpy":{"high":"512582.0","low":"490875.0","volume":"314.138451","last":"506001.0","bid":"507403.0","ask":"511878.0"},"btcgbp":{"high":"3456.32","low":"3330.33","volume":"81.782042","last":"3416.89","bid":"3422.98","ask":"3456.78"},"btcaud":{"high":"5784.1","low":"5546.51","volume":"17.119388","last":"5735.0","bid":"5730.58","ask":"5794.87"},"btccad":{"high":"5664.28","low":"5426.94","volume":"70.069937","last":"5593.11","bid":"5609.2","ask":"5665.57"},"btcsgd":{"high":"6155.66","low":"5906.1","volume":"12.011197","last":"6086.68","bid":"6096.66","ask":"6160.21"},"btcchf":{"high":"4384.38","low":"4225.19","volume":"0.6377","last":"4384.38","bid":"4345.83","ask":"4396.07"},"btcnzd":{"high":null,"low":null,"volume":null,"last":"6079.09","bid":"6224.85","ask":"6260.61"},"btcngn":{"high":null,"low":null,"volume":null,"last":"600000.0","bid":null,"ask":null},"eurusd":{"high":"1.1923","low":"1.1786","volume":"29624.159561","last":"1.1793","bid":"1.1805","ask":"1.1831"},"gbpusd":{"high":"1.3247","low":"1.3099","volume":"24967.19032","last":"1.3113","bid":"1.3116","ask":"1.3132"},"usdjpy":{"high":"113.37","low":"111.84","volume":"79382.4286","last":"112.9","bid":"112.88","ask":"112.9"},"usdhkd":{"high":null,"low":null,"volume":null,"last":"7.8125","bid":"7.8092","ask":"7.8134"},"usdcad":{"high":"1.2521","low":"1.2476","volume":"8642.6693","last":"1.2501","bid":"1.2476","ask":"1.2496"},"usdsgd":{"high":"1.3603","low":"1.3569","volume":"10648.418","last":"1.3587","bid":"1.3563","ask":"1.3587"},"audusd":{"high":"0.7833","low":"0.7816","volume":"6817.122174","last":"0.7824","bid":"0.7824","ask":"0.7844"},"nzdusd":{"high":null,"low":null,"volume":null,"last":"0.7264","bid":"0.7193","ask":"0.7221"},"usdchf":{"high":"0.9697","low":"0.9696","volume":"632.4017","last":"0.9696","bid":"0.9668","ask":"0.9696"},"usdngn":{"high":null,"low":null,"volume":null,"last":"200.0","bid":null,"ask":null},"ethbtc":{"high":"0.075","low":"0.075","volume":null,"last":"0.075","bid":null,"ask":"0.074"},"ltcbtc":{"high":"0.0145","low":"0.0145","volume":null,"last":"0.0145","bid":null,"ask":"0.0145"}}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:24:59 GMT
+recorded_with: VCR 3.0.3

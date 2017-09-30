@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://bx.in.th/api/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - bx.in.th
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Sep 2017 17:24:14 GMT
+      Content-Type:
+      - text/javascript
+      Content-Length:
+      - '5732'
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=da7a61caecb4ca70e274839a85333907d1506792254; expires=Sun, 30-Sep-18
+        17:24:14 GMT; path=/; domain=.bx.in.th; HttpOnly; Secure
+      Cache-Control:
+      - max-age=86400
+      Expires:
+      - Sun, 01 Oct 2017 17:24:14 GMT
+      Strict-Transport-Security:
+      - max-age=0
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a68dfe518232ce1-KUL
+    body:
+      encoding: ASCII-8BIT
+      string: '{"1":{"pairing_id":1,"primary_currency":"THB","secondary_currency":"BTC","change":2.19,"last_price":140000,"volume_24hours":353.71761664,"orderbook":{"bids":{"total":1014,"volume":1589.82572704,"highbid":140000},"asks":{"total":1386,"volume":260.16832689,"highbid":140850}}},"21":{"pairing_id":21,"primary_currency":"THB","secondary_currency":"ETH","change":2.76,"last_price":9898.99,"volume_24hours":1085.91690507,"orderbook":{"bids":{"total":583,"volume":2949.12522074,"highbid":9880},"asks":{"total":1714,"volume":4508.84975696,"highbid":9898.99}}},"22":{"pairing_id":22,"primary_currency":"THB","secondary_currency":"DAS","change":0.9,"last_price":10675.01,"volume_24hours":29.05254733,"orderbook":{"bids":{"total":119,"volume":835.48550196,"highbid":10680},"asks":{"total":259,"volume":224.16627875,"highbid":10850}}},"23":{"pairing_id":23,"primary_currency":"THB","secondary_currency":"REP","change":1.49,"last_price":680.00000001,"volume_24hours":104.69814036,"orderbook":{"bids":{"total":37,"volume":5758.20388883,"highbid":680.01},"asks":{"total":195,"volume":1543.48628255,"highbid":699.99}}},"20":{"pairing_id":20,"primary_currency":"BTC","secondary_currency":"ETH","change":-2.36,"last_price":0.0703,"volume_24hours":35.41357005,"orderbook":{"bids":{"total":54,"volume":148.99080949,"highbid":0.070099},"asks":{"total":116,"volume":398.59086972,"highbid":0.07179998}}},"27":{"pairing_id":27,"primary_currency":"THB","secondary_currency":"BCH","change":2.5,"last_price":14950,"volume_24hours":114.80246488,"orderbook":{"bids":{"total":141,"volume":612.53629611,"highbid":14550},"asks":{"total":374,"volume":235.20339748,"highbid":14950}}},"4":{"pairing_id":4,"primary_currency":"BTC","secondary_currency":"DOG","change":0,"last_price":2.6e-7,"volume_24hours":7094584.5186854,"orderbook":{"bids":{"total":76,"volume":8776258.5389635,"highbid":2.6e-7},"asks":{"total":404,"volume":25270115.073932,"highbid":2.7e-7}}},"6":{"pairing_id":6,"primary_currency":"BTC","secondary_currency":"FTC","change":0,"last_price":1.2e-5,"volume_24hours":387.34255,"orderbook":{"bids":{"total":17,"volume":669176.79355058,"highbid":9.41e-6},"asks":{"total":69,"volume":92820.71035906,"highbid":1.2e-5}}},"24":{"pairing_id":24,"primary_currency":"THB","secondary_currency":"GNO","change":2.92,"last_price":4405,"volume_24hours":10.09438942,"orderbook":{"bids":{"total":56,"volume":7153.76922497,"highbid":4378.76},"asks":{"total":299,"volume":311.35650695,"highbid":4499}}},"13":{"pairing_id":13,"primary_currency":"BTC","secondary_currency":"HYP","change":12.12,"last_price":3.7e-7,"volume_24hours":18887.54439189,"orderbook":{"bids":{"total":10,"volume":1324047.0157382,"highbid":3.4e-7},"asks":{"total":58,"volume":2754144.7030213,"highbid":4.2e-7}}},"2":{"pairing_id":2,"primary_currency":"BTC","secondary_currency":"LTC","change":-0.17,"last_price":0.01267101,"volume_24hours":177.67154614,"orderbook":{"bids":{"total":35,"volume":3653.79437612,"highbid":0.01269601},"asks":{"total":118,"volume":1388.87343705,"highbid":0.01299}}},"3":{"pairing_id":3,"primary_currency":"BTC","secondary_currency":"NMC","change":-17.58,"last_price":0.0003,"volume_24hours":3.54759057,"orderbook":{"bids":{"total":16,"volume":7070.51497456,"highbid":0.0003},"asks":{"total":60,"volume":479.3506408,"highbid":0.000364}}},"26":{"pairing_id":26,"primary_currency":"THB","secondary_currency":"OMG","change":1.37,"last_price":330.01,"volume_24hours":101000.36539434,"orderbook":{"bids":{"total":1762,"volume":254783.285131,"highbid":330},"asks":{"total":5772,"volume":441712.35715992,"highbid":330.01}}},"14":{"pairing_id":14,"primary_currency":"BTC","secondary_currency":"PND","change":0,"last_price":1.0e-8,"volume_24hours":684211.185,"orderbook":{"bids":{"total":0,"volume":0,"highbid":1.0e-8},"asks":{"total":164,"volume":603852487.55491,"highbid":1.0e-8}}},"5":{"pairing_id":5,"primary_currency":"BTC","secondary_currency":"PPC","change":0,"last_price":0.00032332,"volume_24hours":0,"orderbook":{"bids":{"total":6,"volume":5191.73607048,"highbid":0.000182},"asks":{"total":60,"volume":1135.78570025,"highbid":0.0003352}}},"19":{"pairing_id":19,"primary_currency":"BTC","secondary_currency":"QRK","change":183.02,"last_price":3.0e-6,"volume_24hours":40273.21139337,"orderbook":{"bids":{"total":16,"volume":230510.23819271,"highbid":3.0e-6},"asks":{"total":54,"volume":94970.97446607,"highbid":4.0e-6}}},"15":{"pairing_id":15,"primary_currency":"BTC","secondary_currency":"XCN","change":0,"last_price":4.9e-7,"volume_24hours":0,"orderbook":{"bids":{"total":10,"volume":642007.58744246,"highbid":3.2e-7},"asks":{"total":146,"volume":1225934.9565259,"highbid":4.9e-7}}},"7":{"pairing_id":7,"primary_currency":"BTC","secondary_currency":"XPM","change":2.59,"last_price":4.0e-5,"volume_24hours":257.45415975,"orderbook":{"bids":{"total":10,"volume":5845.84789601,"highbid":3.3e-5},"asks":{"total":50,"volume":5115.48998815,"highbid":4.29e-5}}},"17":{"pairing_id":17,"primary_currency":"BTC","secondary_currency":"XPY","change":0,"last_price":3.45e-6,"volume_24hours":0,"orderbook":{"bids":{"total":21,"volume":140403.85718884,"highbid":3.52e-6},"asks":{"total":28,"volume":36255.93402265,"highbid":4.0e-6}}},"25":{"pairing_id":25,"primary_currency":"THB","secondary_currency":"XRP","change":1.84,"last_price":6.64,"volume_24hours":805883.812216,"orderbook":{"bids":{"total":378,"volume":2155629.184429,"highbid":6.57},"asks":{"total":2367,"volume":6443469.108363,"highbid":6.635}}},"8":{"pairing_id":8,"primary_currency":"BTC","secondary_currency":"ZEC","change":-5.66,"last_price":0.0650002,"volume_24hours":60.86710255,"orderbook":{"bids":{"total":37,"volume":155.9119029,"highbid":0.0650002},"asks":{"total":264,"volume":156.27800712,"highbid":0.06536555}}}}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:24:14 GMT
+recorded_with: VCR 3.0.3

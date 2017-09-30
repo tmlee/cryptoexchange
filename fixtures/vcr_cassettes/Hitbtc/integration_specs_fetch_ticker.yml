@@ -1,0 +1,34 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.hitbtc.com/api/1/public/BTCUSD/ticker
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.hitbtc.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '175'
+      Date:
+      - Sat, 30 Sep 2017 17:24:44 GMT
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"ask":"4330.13","bid":"4319.70","last":"4324.51","low":"4149.00","high":"4375.45","open":"4209.56","volume":"1356.60","volume_quote":"5776878.3912","timestamp":1506792284309}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:24:44 GMT
+recorded_with: VCR 3.0.3

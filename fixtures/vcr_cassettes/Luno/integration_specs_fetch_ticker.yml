@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.mybitx.com/api/1/tickers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.mybitx.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - public, max-age=0
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 30 Sep 2017 17:25:10 GMT
+      Last-Modified:
+      - Sat, 30 Sep 2017 17:25:10 GMT
+      Server:
+      - nginx
+      Set-Cookie:
+      - device=ZHQxRI+xpH/2DnWBlpuEbm0X0Q==:8AtuhZJJGAmNm2U51g5dMWXj6Rs=; Path=/;
+        Max-Age=31536000; HttpOnly; Secure
+      Content-Length:
+      - '586'
+      Connection:
+      - Close
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {"tickers":[{"timestamp":1506792310080,"bid":"17898.00","ask":"17899.00","last_trade":"17899.00","rolling_24_hour_volume":"150.263144","pair":"XBTMYR"},{"timestamp":1506792310082,"bid":"59799.00","ask":"59800.00","last_trade":"59799.00","rolling_24_hour_volume":"238.044882","pair":"XBTZAR"},{"timestamp":1506792310083,"bid":"57925000.00","ask":"57927000.00","last_trade":"57926000.00","rolling_24_hour_volume":"6.088269","pair":"XBTIDR"},{"timestamp":1506792310084,"bid":"1499999.00","ask":"1500000.00","last_trade":"1500000.00","rolling_24_hour_volume":"38.148428","pair":"XBTNGN"}]}
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:25:10 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.bitfinex.com/v1/symbols
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.bitfinex.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Sep 2017 17:24:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d1c09d35e23b2730cd25bf06d339ec3801506792239; expires=Sun, 30-Sep-18
+        17:23:59 GMT; path=/; domain=.bitfinex.com; HttpOnly
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Vary:
+      - Accept-Encoding
+      Etag:
+      - W/"2852960d1d06d8439062ec6bc4b129d9"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a89eb621-86e0-4530-8060-0ede2cf88620
+      X-Runtime:
+      - '0.004577'
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a68df86deed2cc3-KUL
+    body:
+      encoding: UTF-8
+      string: '["btcusd","ltcusd","ltcbtc","ethusd","ethbtc","etcbtc","etcusd","rrtusd","rrtbtc","zecusd","zecbtc","xmrusd","xmrbtc","dshusd","dshbtc","bccbtc","bcubtc","bccusd","bcuusd","xrpusd","xrpbtc","iotusd","iotbtc","ioteth","eosusd","eosbtc","eoseth","sanusd","sanbtc","saneth","omgusd","omgbtc","omgeth","bchusd","bchbtc","bcheth","neousd","neobtc","neoeth","etpusd","etpbtc","etpeth"]'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:24:01 GMT
+recorded_with: VCR 3.0.3

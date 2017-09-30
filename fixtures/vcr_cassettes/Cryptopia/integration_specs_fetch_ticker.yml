@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.cryptopia.co.nz/api/GetMarket/BTC_USDT
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - www.cryptopia.co.nz
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/10.0
+      Date:
+      - Sat, 30 Sep 2017 17:24:33 GMT
+      Connection:
+      - close
+      Content-Length:
+      - '431'
+      Set-Cookie:
+      - incap_ses_500_1244263=lsJwa3tP+wmoKPrr4FvwBlHTz1kAAAAAV60sC7Ck3TIfv0CxpSkF7w==;
+        path=/; Domain=.cryptopia.co.nz
+      - nlbi_1244263=JxWHCtsPxgZpvZtDaz1cMwAAAAC/j+Gl04RABisqXDMveBFH; path=/; Domain=.cryptopia.co.nz
+      - visid_incap_1244263=ieZ7sP1CRdOY72ch7m+HTU/Tz1kAAAAAQUIPAAAAAADXGyO59kg/SbQ0fzkGeuYv;
+        expires=Sun, 30 Sep 2018 09:28:50 GMT; path=/; Domain=.cryptopia.co.nz
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Iinfo:
+      - 10-108307995-108308002 NNNN CT(0 0 0) RT(1506792272856 42) q(0 1 1 4) r(2
+        2) U2
+      X-Cdn:
+      - Incapsula
+    body:
+      encoding: UTF-8
+      string: '{"Success":true,"Message":null,"Data":{"TradePairId":4909,"Label":"BTC/USDT","AskPrice":4389.61282000,"BidPrice":4303.00000000,"Low":4140.00000001,"High":4392.92813827,"Volume":3.47069301,"LastPrice":4392.92813827,"BuyVolume":21035280.13092759,"SellVolume":3.69023288,"Change":6.11,"Open":4140.05500003,"Close":4392.92813827,"BaseVolume":14769.99495401,"BuyBaseVolume":58002.86239424,"SellBaseVolume":176087.97519510},"Error":null}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:24:33 GMT
+recorded_with: VCR 3.0.3

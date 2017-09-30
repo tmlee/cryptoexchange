@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.quadrigacx.com/v2/ticker?book=BTC_USD
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.quadrigacx.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Sep 2017 17:25:51 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=db199a502113fac4ae61c08bb9f7ce54e1506792349; expires=Sun, 30-Sep-18
+        17:25:49 GMT; path=/; domain=.quadrigacx.com; HttpOnly
+      Access-Control-Allow-Origin:
+      - "*"
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a68e237ff482cc3-KUL
+    body:
+      encoding: ASCII-8BIT
+      string: '{"high":"4397.99","last":"4397.99","timestamp":"1506792350","volume":"9.18739180","vwap":"4293.01074719","low":"4206.05","ask":"4398.00","bid":"4397.99"}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:25:51 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.coinone.co.kr/ticker?currency=eth
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.coinone.co.kr
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Sep 2017 17:24:30 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '300'
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d578eafd8f977f1948dc19fb46dbe35781506792270; expires=Sun, 30-Sep-18
+        17:24:30 GMT; path=/; domain=.coinone.co.kr; HttpOnly
+      Allow:
+      - GET, HEAD, OPTIONS
+      Cache-Control:
+      - max-age=0.5
+      Expires:
+      - Sat, 30 Sep 2017 17:24:31 GMT
+      Last-Modified:
+      - Sat, 30 Sep 2017 17:24:30 GMT
+      Vary:
+      - Accept
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3a68e04b0f782d05-KUL
+    body:
+      encoding: ASCII-8BIT
+      string: '{"result":"success","volume":"49142.5341","last":"335000","yesterday_last":"334150","timestamp":"1506792270","yesterday_low":"324750","high":"339250","currency":"eth","low":"324750","errorCode":"0","yesterday_first":"327600","yesterday_volume":"41401.4014","yesterday_high":"335000","first":"328100"}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:24:30 GMT
+recorded_with: VCR 3.0.3

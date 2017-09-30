@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://novaexchange.com/remote/v2/market/info/BTC_DOGE/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - novaexchange.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 30 Sep 2017 17:25:43 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '339'
+      Connection:
+      - close
+      Set-Cookie:
+      - session=332e3314-abfb-42c5-97ea-1f880c72340b; Expires=Sun, 01-Oct-2017 03:25:43
+        GMT; HttpOnly; Path=/; secure; HttpOnly
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status": "success", "message": "Info for market: BTC_DOGE", "markets":
+        [{"bid": "0.00000026", "last_price": "0.00000027", "volume24h": "17.228",
+        "marketid": 159, "disabled": 1, "currency": "DOGE", "marketname": "BTC_DOGE",
+        "ask": "0.00000027", "low24h": "0.00000025", "change24h": "3.7", "high24h":
+        "0.00000029", "basecurrency": "BTC"}]}'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:25:43 GMT
+recorded_with: VCR 3.0.3

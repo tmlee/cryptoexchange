@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.coinexchange.io/api/v1/getmarkets
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - www.coinexchange.io
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 403
+      message: Forbidden
+    headers:
+      Content-Type:
+      - text/html
+      Cache-Control:
+      - no-cache
+      Connection:
+      - close
+      Content-Length:
+      - '702'
+      X-Iinfo:
+      - 8-113873625-0 0NNN RT(1506793088369 29) q(0 -1 -1 -1) r(0 -1) B16 U19
+      Set-Cookie:
+      - incap_ses_501_1322663=rwCNbA5JmQoIjWmOZunzBoDWz1kAAAAAS+t/t52D4U47UHF2jPp5Ew==;
+        path=/; Domain=.coinexchange.io
+      - visid_incap_1322663=T/OJPCu0ROa76U2cIWw6FYDWz1kAAAAAQUIPAAAAAABgBiuMT8u27lrOKwJfhyGm;
+        expires=Sun, 30 Sep 2018 10:43:21 GMT; path=/; Domain=.coinexchange.io
+    body:
+      encoding: ASCII-8BIT
+      string: '<html style="height:100%"><head><META NAME="ROBOTS" CONTENT="NOINDEX,
+        NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport"
+        content="initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"></head><body
+        style="margin:0px;height:100%"><iframe src="/_Incapsula_Resource?CWUDNSAI=18&xinfo=8-113873625-0%200NNN%20RT%281506793088369%2029%29%20q%280%20-1%20-1%20-1%29%20r%280%20-1%29%20B16%20U19&incident_id=501000610253025312-852019682179613656&edet=16&cinfo=ffffffff"
+        frameborder=0 width="100%" height="100%" marginheight="0px" marginwidth="0px">Request
+        unsuccessful. Incapsula incident ID: 501000610253025312-852019682179613656</iframe></body></html>'
+    http_version: 
+  recorded_at: Sat, 30 Sep 2017 17:38:08 GMT
+recorded_with: VCR 3.0.3
